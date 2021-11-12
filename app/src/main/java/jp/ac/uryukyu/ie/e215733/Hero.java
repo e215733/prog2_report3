@@ -55,6 +55,7 @@ public class Hero {
     /**
      * 自身へ攻撃されたときのダメージ処理をするメソッド。
      * 指定されたダメージを hitPoint から引き、死亡判定を行う。
+     * Enemyのが死亡すると攻撃されない。
      * @param damage 受けたダメージ
      */
     public void wounded(int damage){
